@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+body,
+html {
+    background-color: black;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 80%;
+    height:auto;
+    background-color: aqua;
+}
+.page1 h1{
+    color: white;
+}
+.page1 p{
+    color:white;
+}
