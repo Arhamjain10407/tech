@@ -1,0 +1,43 @@
+
+.main {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    justify-items: center;
+}
+.myfirstnav {
+    width:15%;
+    height:10vh;
+    background-color: rgba(252, 252, 252, 0.497);
+    position: sticky;
+    border-radius:25px;
+    top:10px;
+    left:10px;
+    float: left;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.myfirstnav a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    text-transform: uppercase;
+    transition:0.2s;
+}
+.myfirstnav a:hover{
+    font-size: 3.5vh;
+}
+
+.mylogo {
+    background-image: url('hello.png');
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    float: right;
+    position: sticky;
+    right: 10px;
+    top: 10px;
+
+}
